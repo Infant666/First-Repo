@@ -386,11 +386,11 @@ legend {
   .videoClip video,
   .sports img {
     width: 100%;
-    max-width: 75%;
+    max-width: 250px;
     height: auto;
     clip-path: none !important;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 0;
     display: block;
     box-sizing: border-box;
   }
