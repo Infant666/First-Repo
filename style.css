@@ -1,0 +1,496 @@
+.container {
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    border: solid black;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+.header {
+    display: flex;
+    border-bottom: 2px solid black;
+    background-color: #C2C2C2;
+
+}
+
+
+.header h1 {
+    margin: 40px 10px 10px 10px;
+    color: #0000FF;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+.header a {
+    margin: 10px 50px 10px 10px;
+}
+
+nav {
+    border-bottom: 2px solid black;
+    text-align: center;
+    color: darkblue;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+nav>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li ul {
+    position: absolute;
+    z-index: 999;
+    text-align: left;
+    display: none;
+    border: 1px solid black;
+    background-color: white;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li {
+    padding: 10px 20px 10px 20px;
+    font-size: large;
+    margin: 30px;
+}
+
+nav ul li ul li:hover a:hover {
+
+
+    color: brown;
+
+}
+
+nav ul li ul li:hover a:visited {
+    color: green;
+
+}
+nav ul li:hover a:hover {
+    color: brown;
+}
+
+nav ul li:hover a:visited{
+    color: green;
+}
+
+
+#hero {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.heroPara {
+    text-align: center;
+    margin: 30px;
+
+}
+
+
+.clip1 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+
+}
+
+.clipPara {
+    display: block;
+    width: 50%;
+
+}
+
+.clip1 h2,
+.clip1 p {
+    margin: 30px;
+
+
+}
+
+.clipImg1 img {
+    width: 100%;
+    margin: 30px;
+    margin-bottom: 2px;
+    clip-path: polygon(0% 35%, 30% 0%, 70% 0%, 100% 30%, 90% 100%, 10% 100%);
+    text-align: center;
+
+}
+
+.clipImg1 figcaption {
+    text-align: center;
+}
+
+.clipImg1 {
+    align-items: center;
+    text-align: center;
+    width: 50%;
+
+
+
+}
+
+.clipImg1 a:hover {
+    color: brown;
+}
+
+.clipImg1 a:visited {
+    color: green;
+}
+
+
+.clip2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.clipPara2 {
+    display: block;
+    width: 50%;
+
+}
+
+.clip2 h2,
+.clip2 p {
+    margin: 30px;
+}
+
+.clipImg2 {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+
+}
+
+.clipImg2 img {
+    clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+    margin: 30px;
+    margin-bottom: 2px;
+    text-align: center;
+
+    width: 50%;
+}
+
+.clipImg2 figcaption {
+    text-align: center;
+
+}
+
+.clipImg2 a:hover {
+    color: brown;
+}
+
+.clipImg2 a:visited {
+    color: green;
+}
+
+#gridHead {
+    text-align: center;
+    margin: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-gap: 30px;
+    text-align: center;
+    margin: 30px;
+
+}
+
+.grid img {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+
+
+}
+
+.grid li {
+    text-align: left;
+    margin: 30px;
+}
+.grid ol{
+    padding: 0;
+}
+
+
+.button {
+    text-align: left;
+    border: solid black;
+    border-radius: 10px;
+    box-shadow: 5px 2px 10px 5px lightskyblue;
+    padding: 30px;
+    
+
+}
+#link {
+    color: black;
+    text-decoration: none;
+
+}
+#link2 {
+    
+    color: black;
+    text-decoration: none;
+
+}
+#link3{
+    color: black;
+    text-decoration:none;
+} 
+
+
+
+.grid h3 {
+    margin: 0px;
+    
+}
+
+.button input {
+    margin: 0 30px 30px 30px;
+    border: solid black;
+    background-color: #C2C2C2;
+    color: black;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #C2C2C2;
+    margin-top: 30px;
+
+
+}
+
+.footMenu {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 30px;
+    border-top: solid black;
+    border-bottom: solid black;
+    width: 100%;
+
+}
+
+.footMenu li {
+
+    margin: 30px;
+    list-style: none;
+}
+
+.footMenu div {
+    text-align: center;
+}
+
+.footMenu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footMenu h2 {
+    margin: 30px;
+}
+
+#copy {
+    margin: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.back img {
+    width: 100%;
+    height: 500px;
+}
+
+.back {
+    position: relative;
+}
+
+.back h2 {
+    color: aliceblue;
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 30%;
+}
+
+.video {
+    display: flex;
+}
+
+.vidPara {
+    display: block;
+    width: 50%;
+}
+
+.video h2,
+.video p {
+
+    margin: 30px;
+}
+.vidPara a:hover{
+    color: brown;
+}
+.vidPara a:visited{
+    color: green;
+}
+
+.videoClip video {
+    width: 100%;
+    margin: 30px;
+    margin-bottom: 2px;
+    text-align: center;
+
+}
+
+.videoClip figcaption {
+    text-align: center;
+}
+
+.videoClip{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding:20px;
+
+
+
+}
+
+.videoClip a:hover {
+    color: brown;
+}
+
+.videoClip a:visited {
+    color: green;
+} 
+
+.table{
+    text-align: center;
+    margin: 30px;
+}
+.table h2{
+    margin: 30px;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 30px;
+}
+.forms {
+    
+    margin: 30px;
+}
+
+.forms h2{
+    margin: 30px;
+    text-align: center;
+}
+fieldset div{
+    padding: 30px;
+}
+
+fieldset div select, fieldset div textarea{
+    width: 300px;
+}
+
+#textIn {
+    width: 300px;
+}
+.labels{
+    display: inline-block;
+    width:300px;
+}
+legend{
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 30px;
+}
+#reset{
+    margin-right:50px
+}
+
+.footMenu a:hover{
+    color: brown;
+}
+.footMenu a:visited{
+    color: green;
+}
+
+.sports{
+    text-align: center;
+    margin: 30px;
+}
+.sports li {
+    text-align: left;
+    margin: 30px;
+   
+    
+}
+.sports h2{
+    text-align: left;
+    margin: 30px;
+}
+.sports img{
+    width: 100%;
+    
+}
+.ani{
+    margin: 30px;
+}
+
+.ani a:hover{
+    color: brown;
+}
+.ani a:visited{
+    color: green;
+}
+
+/* References :
+
+  12. Conestoga College. (n.d.). Week 3 [Slides]. Conestoga Desire2Learn. 
+        https://conestoga.desire2learn.com/d2l/le/content/1348322/viewContent/28300501/View
+  13. Conestoga College. (n.d.). Week 4 [Slides]. Conestoga Desire2Learn. 
+        https://conestoga.desire2learn.com/d2l/le/content/1348322/viewContent/28300534/View
+  14. Conestoga College. (n.d.). Week 5 [Slides]. Conestoga Desire2Learn.
+        https://conestoga.desire2learn.com/d2l/le/content/1348322/viewContent/28300536/View
+  15. Conestoga College. (n.d.). Week 6 [Slides]. Conestoga Desire2Learn. 
+        https://conestoga.desire2learn.com/d2l/le/content/1348322/viewContent/28300541/View
+  16. Conestoga College. (n.d.). Week 9 [Slides]. Conestoga Desire2Learn. 
+        https://conestoga.desire2learn.com/d2l/le/content/1348322/viewContent/28300550/View
+  17. W3Docs. (n.d.). How to add an HTML button that acts like a link. W3Docs. 
+        https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
+  18. Conestoga College. (n.d.). Week 10 [Slides]. Conestoga Desire2Learn.
+        https://conestoga.desire2learn.com/d2l/le/content/1348322/viewContent/28300551/View
+  19. Conestoga College. (n.d.). Week 11 [Slides]. Conestoga Desire2Learn.
+        https://conestoga.desire2learn.com/d2l/le/content/1348322/viewContent/28300560/View
+  20. Conestoga College. (n.d.). Week 12 [Slides]. Conestoga Desire2Learn. 
+        https://conestoga.desire2learn.com/d2l/le/content/1348322/viewContent/28300561/View
+  21. Conestoga College. (n.d.). Week 13 [Slides]. Conestoga Desire2Learn. 
+        https://conestoga.desire2learn.com/d2l/le/content/1348322/viewContent/28300567/View
+  22. Conestoga College. (n.d.). Week 13 [Slides]. Conestoga Desire2Learn.
+        https://conestoga.desire2learn.com/d2l/le/content/1348322/viewContent/28300568/View
+  23. W3Schools. (n.d.). CSS tutorial. W3Schools. 
+        https://www.w3schools.com/css/
+  24. W3Schools. (n.d.). HTML background images. W3Schools.
+         https://www.w3schools.com/html/html_images_background.asp */
