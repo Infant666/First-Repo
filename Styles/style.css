@@ -473,5 +473,10 @@ legend {
     flex-direction: column;
     align-items: center;
   }
+  #anivideo{
+  width:100%;
+    max-width:300px;
+    margin:0px;
+  }
 }
 
