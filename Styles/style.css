@@ -466,6 +466,91 @@ legend{
     color: green;
 }
 
+@media screen and (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header a {
+    margin: 10px auto;
+  }
+
+  .header h1 {
+    margin: 10px;
+    font-size: large;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 10px;
+  }
+
+  .container, .clip1, .clip2, .video, .forms, .table, .review-section, .ani, .sports {
+    flex-direction: column !important;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .clipImg1, .clipImg2, .videoClip, .vidPara, .clipPara, .clipPara2 {
+    width: 100%;
+  }
+
+  .clipImg2 img,
+  .clipImg1 img,
+  .videoClip video,
+  .sports img {
+    width: 100%;
+    height: auto;
+  }
+
+  table, th, td {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .footMenu {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  fieldset div select, fieldset div textarea, #textIn {
+    width: 100%;
+  }
+
+  .labels {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .back img {
+    height: auto;
+  }
+
+  .back h2 {
+    font-size: 18px;
+    top: 30%;
+    left: 10%;
+  }
+}
+
 /* References :
 
   12. Conestoga College. (n.d.). Week 3 [Slides]. Conestoga Desire2Learn. 
