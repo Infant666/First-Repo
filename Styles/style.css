@@ -365,6 +365,7 @@ legend {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    align-items: center;
   }
 
   .clipImg1,
@@ -374,31 +375,26 @@ legend {
   .clipPara,
   .clipPara2 {
     width: 100%;
+    padding: 0 10px;
   }
 
-  /* 🔧 FINAL CLIP IMAGE FIX */
   .clipImg1 img,
-  .clipImg2 img {
-    width: 100% !important;
-    height: auto !important;
-    clip-path: none !important;
-    border-radius: 10px !important;
-    object-fit: cover;
-    display: block;
-  }
-
+  .clipImg2 img,
   .videoClip video,
   .sports img {
     width: 100% !important;
     height: auto !important;
+    clip-path: none !important;
+    margin: 0 auto 10px auto !important;
+    display: block;
+    border-radius: 10px;
   }
 
   .grid {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 20px !important;
-    margin: 20px 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 
   .grid img {
@@ -466,4 +462,3 @@ legend {
     align-items: center;
   }
 }
-
