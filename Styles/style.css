@@ -458,4 +458,13 @@ legend {
     flex-direction: column;
     align-items: center;
   }
+  .clipImg1 img,
+.clipImg2 img {
+  width: 100% !important;
+  height: auto !important;
+  clip-path: none !important;
+  border-radius: 10px !important;
+  object-fit: cover;
+  display: block;
+}
 }
