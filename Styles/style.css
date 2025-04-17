@@ -472,6 +472,13 @@ legend{
     padding: 10px;
   }
 
+  .container {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  /* Header section */
   .header {
     flex-direction: column;
     align-items: center;
@@ -487,6 +494,7 @@ legend{
     font-size: large;
   }
 
+  /* Navigation */
   nav ul {
     display: flex;
     flex-direction: column;
@@ -500,36 +508,57 @@ legend{
     margin: 10px;
   }
 
-  .container, .clip1, .clip2, .video, .forms, .table, .review-section, .ani, .sports {
+  /* Layout and containers */
+  .clip1, .clip2, .video, .forms, .table, .review-section, .ani, .sports {
     flex-direction: column !important;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
   }
 
+  /* Image and video blocks */
   .clipImg1, .clipImg2, .videoClip, .vidPara, .clipPara, .clipPara2 {
     width: 100%;
   }
 
-  .clipImg2 img,
   .clipImg1 img,
+  .clipImg2 img,
   .videoClip video,
   .sports img {
     width: 100%;
     height: auto;
+    clip-path: none; /* Remove fancy clipping on mobile */
+    border-radius: 10px;
   }
 
+  /* Grid layout */
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .grid img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Table formatting */
   table, th, td {
     font-size: 14px;
     padding: 10px;
+    word-break: break-word;
   }
 
+  /* Footer grid */
   .footMenu {
     grid-template-columns: 1fr;
     text-align: center;
   }
 
-  fieldset div select, fieldset div textarea, #textIn {
+  /* Form fields */
+  fieldset div select,
+  fieldset div textarea,
+  #textIn {
     width: 100%;
   }
 
@@ -539,6 +568,7 @@ legend{
     margin-bottom: 10px;
   }
 
+  /* Background banner */
   .back img {
     height: auto;
   }
@@ -549,26 +579,33 @@ legend{
     left: 10%;
   }
 
-.movieCard {
-  display: block;
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 15px;
+  /* Optional read more buttons and cards */
+  .movieCard {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+
+  .readMoreBtn {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+  }
+
+  .movie-section,
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.readMoreBtn {
-  display: block;
-  width: fit-content;
-  margin: 10px auto;
-}
 
-.movie-section,
-.card-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-}
+
+
+
+
 
 /* References :
 
