@@ -233,7 +233,7 @@ nav ul li a:visited {
 
 .videoClip video {
   width: 100%;
-  margin: 30px;
+  margin: 0;
   margin-bottom: 2px;
 }
 
