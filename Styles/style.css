@@ -312,7 +312,7 @@ legend {
   width: 100%;
 }
 
-/* 🎯 MOBILE RESPONSIVE FIXES */
+
 @media screen and (max-width: 768px) {
   body {
     font-size: 16px;
@@ -376,14 +376,21 @@ legend {
     width: 100%;
   }
 
+  /* 🔧 FINAL CLIP IMAGE FIX */
   .clipImg1 img,
-  .clipImg2 img,
+  .clipImg2 img {
+    width: 100% !important;
+    height: auto !important;
+    clip-path: none !important;
+    border-radius: 10px !important;
+    object-fit: cover;
+    display: block;
+  }
+
   .videoClip video,
   .sports img {
     width: 100% !important;
     height: auto !important;
-    clip-path: none !important;
-    border-radius: 10px;
   }
 
   .grid {
@@ -458,13 +465,5 @@ legend {
     flex-direction: column;
     align-items: center;
   }
-  .clipImg1 img,
-.clipImg2 img {
-  width: 100% !important;
-  height: auto !important;
-  clip-path: none !important;
-  border-radius: 10px !important;
-  object-fit: cover;
-  display: block;
 }
-}
+
