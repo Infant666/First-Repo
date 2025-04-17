@@ -385,7 +385,7 @@ legend {
   .videoClip video,
   .sports img {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     height: auto;
     clip-path: none !important;
     border-radius: 10px;
