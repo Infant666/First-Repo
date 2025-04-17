@@ -369,6 +369,7 @@ legend {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    margin:0px;
   }
 
   .clipImg1,
@@ -386,7 +387,7 @@ legend {
   .videoClip video,
   .sports img {
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
     height: auto;
     clip-path: none !important;
     border-radius: 10px;
