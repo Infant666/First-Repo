@@ -508,7 +508,7 @@ legend{
     margin: 10px;
   }
 
-  /* Layout and containers */
+  /* Responsive layout blocks */
   .clip1, .clip2, .video, .forms, .table, .review-section, .ani, .sports {
     flex-direction: column !important;
     width: 100%;
@@ -516,7 +516,6 @@ legend{
     box-sizing: border-box;
   }
 
-  /* Image and video blocks */
   .clipImg1, .clipImg2, .videoClip, .vidPara, .clipPara, .clipPara2 {
     width: 100%;
   }
@@ -527,19 +526,26 @@ legend{
   .sports img {
     width: 100%;
     height: auto;
-    clip-path: none; /* Remove fancy clipping on mobile */
+    clip-path: none; /* remove clipping shapes */
     border-radius: 10px;
   }
 
-  /* Grid layout */
+  /* Fix grid section */
   .grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
   }
 
   .grid img {
     width: 100%;
     height: auto;
+  }
+
+  .grid li {
+    text-align: center;
+    padding: 10px;
   }
 
   /* Table formatting */
@@ -600,6 +606,7 @@ legend{
     align-items: center;
   }
 }
+
 
 
 
