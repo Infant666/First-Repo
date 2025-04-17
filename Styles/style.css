@@ -489,6 +489,7 @@ legend {
   width: 100%;
   margin: 0px;
   margin-bottom: 2px;
+  max-width:300px;
 }
 
 }
